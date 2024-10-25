@@ -1,0 +1,10 @@
+
+
+@media (max-width: 450px) {
+    .header__container {
+        max-width: 288px;
+        max-height: 52px;
+        margin: 28px 16px;
+    }
+
+}
