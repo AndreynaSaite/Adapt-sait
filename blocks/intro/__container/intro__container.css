@@ -1,0 +1,9 @@
+.intro__container {
+    display: grid;
+    margin-left: 148px;
+    margin-right: 442px;
+    max-width: 690px;
+    max-height: 429px;
+    /*position: relative;*/
+    /*justify-content: center;*/
+}

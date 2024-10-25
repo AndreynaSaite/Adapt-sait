@@ -1,0 +1,13 @@
+.header__lang-link_ru {
+    margin-right: 1.5rem;
+    text-decoration: underline;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.header__lang-link_en {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}

@@ -1,0 +1,5 @@
+body,p, h1, h2,.page, nav, div, .lead_container{
+    margin: 0;
+    border: 1px solid red;
+    background-color: grey;
+}
