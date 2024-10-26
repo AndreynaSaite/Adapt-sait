@@ -1,0 +1,13 @@
+.photo-grid__container {
+    display: grid;
+    align-items: center;
+    justify-content: center; 
+    gap: 14px 14px;
+    margin: auto;
+    grid-template-columns: repeat(auto-fill, minmax(284px, 1fr)); /* Автоматически заполняем строки */
+    grid-template-rows: repeat(auto-fill, minmax(213px, 1fr)); /* Автоматически заполняем строки */
+}
+.grid__item {
+    width: 284px;
+    height: 213px;
+}
