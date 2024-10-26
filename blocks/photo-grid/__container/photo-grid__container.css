@@ -4,6 +4,7 @@
     gap: 14px 14px;
     grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(213px, 1fr));
+    margin-top: 92px;
 }
 .image_log {
     width: 284px;
