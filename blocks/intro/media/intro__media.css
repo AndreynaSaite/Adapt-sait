@@ -1,0 +1,36 @@
+@media (max-width: 1279px) and (min-width: 1024px)  {
+    .intro__container {
+       margin-right: 286px;
+       margin-left: 48px;
+    }
+    
+}
+
+
+@media (max-width: 1023px) and (min-width: 768px)  {
+    .intro__container  {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .intro__container  {
+        max-width: 288px;
+        min-height: 520px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+
+    .intro__title {
+        line-height: 35px;
+        font-size: 32px;
+        width: 100%;
+        max-width: 288px;
+        max-height: 70px;
+    }
+}

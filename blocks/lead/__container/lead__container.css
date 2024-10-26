@@ -1,7 +1,5 @@
 .lead__container {
     display: grid;
-    margin-left: 148px;
-    margin-right: 148px;
     max-width: 984px;
     max-height: 1005px;
     /*position: relative;*/

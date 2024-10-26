@@ -1,3 +1,20 @@
 .intro__list {
-    
+    font-family: 'Inter', sans-serif; /* Шрифт Inter */
+    font-size: 12px; /* Размер шрифта 12px */
+    font-weight: bold; /* Жирное начертание */
+    line-height: 18px; /* Высота строки 18px */
+    opacity: 1; /* Прозрачность 100% */
+    border-radius: 0; /* Радиус углов 0 */
+}
+
+.info-item {
+    margin-bottom: 10px; /* Отступ между элементами списка */
+}
+
+.info-item:last-child {
+    margin-bottom: 0; /* Убираем отступ у последнего элемента */
+}
+
+.info-number {
+    font-weight: normal; /* Обычный вес шрифта для чисел */
 }
