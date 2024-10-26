@@ -1,10 +1,15 @@
 
 
 @media (max-width: 450px) {
-    .header__container {
+    .header_format {
         max-width: 288px;
-        max-height: 52px;
-        margin: 28px 16px;
+        max-height: 42px;
+        margin: 16px auto;
+        width: 100%;
     }
-
+    .image_logo {
+        width: 100%;
+        height: 42px;
+        width: 142px;
+    }
 }

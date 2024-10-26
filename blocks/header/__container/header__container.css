@@ -1,8 +1,16 @@
-.header__container {
-    display: flex;
-    margin: 28px 48px;
+.header_format {
    /* width: 95%;*/
     max-width: 1184px;
     max-height: 52px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+
+.header__container {
+    margin-right:auto;
+    margin-left: auto;
+    width: 100%;
+    display: flex;
     justify-content: space-between;
 }

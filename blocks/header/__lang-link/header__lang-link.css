@@ -11,3 +11,19 @@
     font-size: 1.5rem;
     line-height: 1.5rem;
 }
+
+@media (max-width: 450px) {
+    .header__lang-link_ru {
+        width: 22px;
+        height: 20px;
+        font-size: 1.125rem;
+        line-height: 1.25rem;
+    }
+
+    .header__lang-link_en {
+        width: 22px;
+        height: 20px;
+        font-size: 1.125rem;
+        line-height: 1.25rem;
+    }
+}
