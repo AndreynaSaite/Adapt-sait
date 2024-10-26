@@ -1,4 +1,4 @@
-body,p, h1, h2,.page, nav, div, .lead_container{
+body,p, h1, h2,.page, nav, div, .lead_container, a{
     margin: 0;
     border: 1px solid red;
     background-color: #333; /* Темный фон */

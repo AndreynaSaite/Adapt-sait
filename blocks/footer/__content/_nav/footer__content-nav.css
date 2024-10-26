@@ -1,0 +1,13 @@
+.footer__content-nav{
+    display: flex;
+    gap: 1.125rem;
+    height: 100%;
+}
+
+.ft_a {
+    font-size: 1rem;
+    max-height: 18px;
+    color: white;
+    line-height: 1.125rem;
+    text-decoration: none;
+}
