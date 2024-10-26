@@ -1,4 +1,8 @@
 .lead__caption {
-    display: block;
-    
+    text-transform: uppercase; /* делает все буквы заглавными */
+    letter-spacing: 0.1em;
+    max-width: 158px;
+    max-height: 14px;
+    line-height: 14px;
+    font-size: 10px;
 }
