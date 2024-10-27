@@ -1,0 +1,120 @@
+@media (min-width: 1280px) {
+
+    .places__container {
+        width: 80%;
+    }
+
+    .place {
+        max-width: 100%;
+        gap: 48px 42px;
+    }
+
+    .place__title {
+        line-height: 6.5rem;
+        font-size:  6.3em;
+        font-weight: bold;
+    }
+    .place__website_url-heading {
+        line-height: 1.5rem;
+        font-size:  1.5em;
+        letter-spacing: 2.5px;
+    }
+    
+    .place__website_link {
+        line-height: 2.2rem;
+        font-size:  2em;
+    }
+    
+    .place__image {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 1279px) and (min-width: 1024px) {
+
+}
+
+@media (max-width: 1023px) and (min-width: 769px)  {
+    .places__container {
+        width: 91%;
+    }
+
+    .place {
+        max-width: 100%;
+        gap: 48px 32px;
+    }
+    
+    .place__paragraph {
+        font-size:  1em;
+    }
+
+}
+
+@media (max-width: 768px) and (min-width: 500px) {
+    .place {
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: repeat(2,46%);
+        grid-template-rows: repeat(3, min-width);
+        gap: 48px 28px;
+    }
+    .places__container {
+        width: 95%;
+    }
+
+    .place__title {
+        line-height: 3rem;
+        font-size:  3em;
+        font-weight: bold;
+    }
+    .place__paragraph {
+        font-size:  1em;
+    }
+}
+
+
+@media (max-width: 499px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        gap: 32px;
+    }
+    .places__container {
+        width: 100%;
+    }
+
+    .place__title {
+        line-height: 35px;
+        font-size:  32px;
+        font-weight: bold;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .place__paragraph {
+        font-size: 1em;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .place__website_url-heading {
+        line-height: 0.75rem;
+        font-size:  0.75em;
+        letter-spacing: 2px;
+    }
+    
+    .place__website_link {
+        line-height: 1.375rem;
+        font-size: 1.125em;
+    }
+
+    .place__website {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+    .place__image {
+        max-width: 100%;
+    }
+}
