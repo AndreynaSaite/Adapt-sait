@@ -33,6 +33,7 @@
 @import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__content/_nav/footer__content-nav.css);
 @import url(../blocks/footer/copyright/footer__copyright.css);
+@import url(../blocks/footer/footer__media/footer_media.css);
 
 
 @import url(../blocks/cover/cover.css);
