@@ -1,11 +1,18 @@
-.lead {
-    /*display: grid;*/
-    /*position: relative;*/
-    
-    /*margin: 0 148px;*/
-
+.lead{
+    max-width: 77%;
+    margin: 28px auto;
 }
 
-.figure {
-    width: 100%;
+
+
+@media (max-width: 1023px) and (min-width: 768px)  {
+    .lead {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .lead {
+        max-width: 100%;
+    }
 }

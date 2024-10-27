@@ -1,7 +1,7 @@
 @media (max-width: 1279px) and (min-width: 1024px)  {
     .intro__container {
-       margin-right: 286px;
-       margin-left: 48px;
+       margin-right: auto;
+       margin-left: 11.5%;
     }
     
 }

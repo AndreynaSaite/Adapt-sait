@@ -1,11 +1,10 @@
-@media (min-width: 1280px) {
-    .lead__figure {
+@media (max-width: 1920px) and (min-width: 1280px) {
+    .lead__container {
         width: 100%;
     }
+    .lead__image {
+        width: 100%;
 
-    .lead__container {
-        margin-left: 148px;
-        margin-right: 148px;
     }
 
     .lead__title {
@@ -16,13 +15,12 @@
 }
 
 @media (max-width: 1279px) and (min-width: 1024px) {
-    .lead__figure {
+    .lead__container {
         width: 100%;
     }
-    
-    .lead__container {
-        margin-left: 48px;
-        margin-right: 48px;
+
+    .lead__image {
+        width: 100%;
     }
 
     .lead__title {
@@ -33,13 +31,12 @@
 }
 
 @media (max-width: 1023px) and (min-width: 768px)  {
-    .lead__figure {
-        width: 100%;
+    .lead {
+        max-width: 100%;
     }
 
     .lead__container {
-        margin-left: 0;
-        margin-right: 0;
+        width: 100%;
     }
 
     .lead__title {
@@ -50,13 +47,9 @@
 }
 
 @media (max-width: 767px) {
-    .lead__figure {
-        width: 100%;
-    }
 
     .lead__container {
-        margin-left: 0;
-        margin-right: 0;
+        width: 100%;
     }
 
     .lead__title {

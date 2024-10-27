@@ -1,0 +1,23 @@
+.cover{
+    max-width: 92.5%;  
+    margin: 0 auto;
+    
+}
+.image_cover {
+    width: 100%;
+}
+
+.image_cover:hover {
+    opacity: 0.5;
+    transition: opacity .20s linear;
+  
+  }
+
+
+@media (max-width: 1280px){
+    .cover{
+        max-width: 100%;  
+        margin: 0 auto;
+        
+    }
+}

@@ -1,7 +1,4 @@
 .lead__container {
     display: grid;
-    max-width: 984px;
-    max-height: 1005px;
-    /*position: relative;*/
     justify-content: center;
 }
